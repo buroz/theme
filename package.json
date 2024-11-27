@@ -12,10 +12,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "buroz",
+        "label": "darkplussharp",
         "uiTheme": "vs-dark",
-        "path": "./themes/buroz-color-theme.json"
+        "path": "./themes/darkplussharp-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.2.1"
   }
 }
